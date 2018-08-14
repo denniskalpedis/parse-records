@@ -4,7 +4,7 @@
   "description": "parse text files for records",
   "main": "sort.js",
   "scripts": {
-    "test": "node sort.js text1.txt",
+    "test": "jest",
     "start": "node server.js text1.txt"
   },
   "repository": {
