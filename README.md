@@ -1,4 +1,4 @@
-# Project Title
+# Parse Records
 
 This project it to take in a text file with records on new lines, and parse the file and sort the records.
 
