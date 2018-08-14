@@ -25,7 +25,7 @@ app.get('/records/name', function (request, response) {
 app.post('/records', function (request, response) {
     var newLine = Object.values(request.query);
     // in windows line ends are '\r\n'. change to '\n' on mac
-    fs.appendFile(parse.filename, "\r\n" + newLine.join(" | "), function (err) {
+    fs.appendFile(parse.filename, "\n" + newLine.join(" | "), function (err) {
 
         if (err) return console.log(err);
         console.log('Appended!');

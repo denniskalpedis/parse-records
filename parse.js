@@ -18,7 +18,7 @@ module.exports = {
     load: function(callback) {
         fs.readFile(filename, 'utf8', function (err, data) {
             // in windows line ends are '\r\n'. change to '\n' on mac
-            data = data.split('\r\n');
+            data = data.split('\n');
             for (var i = 0; i < data.length; i++) {
                 data[i] = data[i].split(" | ").join(" ").split(", ").join(" ").split(" ");
                 data[i] = {
