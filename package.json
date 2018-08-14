@@ -1,0 +1,27 @@
+{
+  "name": "parse-records",
+  "version": "1.0.0",
+  "description": "parse text files for records",
+  "main": "sort.js",
+  "scripts": {
+    "test": "node sort.js text1.txt",
+    "start": "node server.js text1.txt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denniskalpedis/parse-records.git"
+  },
+  "author": "Dennis Kalpedis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/denniskalpedis/parse-records/issues"
+  },
+  "homepage": "https://github.com/denniskalpedis/parse-records#readme",
+  "devDependencies": {
+    "jest": "^23.5.0",
+    "supertest": "^3.1.0"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
